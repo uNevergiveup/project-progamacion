@@ -1,0 +1,186 @@
+@charset "utf-8";
+
+body{
+	background: url(fondo3.jpg) center center fixed;
+	background-color: white;
+	background-size: cover;
+}
+main{
+	margin: auto;
+	align-content: center;
+	width: 1250px;
+}
+
+header{
+	height: 70px;
+	margin: 0px;
+	background-color:#58ACFA;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+nav{
+	height: 700px;
+	background-color: white;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+nav img{
+	border-radius: 0.5em;
+	floar:right;
+	margin-top: 100px;
+	margin-left: 10px;
+}
+.linea{
+	width:800px;
+}
+header ul li{
+	display: inline-block;
+}
+header ul{
+	padding-top: 11px;
+	margin-left: 150px;
+	float: left;
+}
+	
+ul li a{
+	color: white;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+ul li a:hover{
+	color: #FACC2E;
+}
+header img{
+	position: absolute;
+	margin-top: 0.3em;
+
+}
+#box{
+	white-space: nowrap;
+	float:right;
+	margin-right: 20px;
+	padding-top: 17px;
+	position: relative;
+}
+#buscador input#buscar{
+  width: 160px;
+  height: 35px;
+  background: white;
+  border: none;
+  font-size: 10pt;
+  padding-left: 37px;
+  border-radius: 5px;
+}
+#buscador input#buscar::-webkit-input-placeholder{
+   color: #81BEF7;
+}
+#buscador .icon{
+  position:absolute;
+  padding-right: 0;
+  margin-left: 8px;
+  margin-top: 9px;
+  color: #58ACFA;
+}
+#buscador input#buscar:hover, #buscador input#buscar:focus, #buscador input#buscar:active{
+    outline:none;
+    background: #ffffff;
+ }
+#tarifa{
+	margin-top: 30px;
+	padding: 4em;	
+	font-size: 15px;
+	font-family: 'Roboto';
+	color: #00305A;
+	float:left;
+
+}
+#datos{
+	padding: 60px;
+	background-color: white;
+	border-radius: 0.5em;
+	box-shadow: 0px 0px 15px 10px #C9D4DE;
+}
+#cmbDato{
+	width: 250px;
+	height: 25px;
+	background-color: #F2F2F2;
+	border: 0.5px solid #B7D5EF;
+	padding-left: 10px;
+	box-shadow:inset 2px 2px #C9D4DE;
+	
+}
+.datos input#dato:input-placeholder{
+	color: gray;
+	font-size: 10px;
+
+}
+#datos p{
+	font-size: 17px;	
+}
+nav p{
+	margin-top: 21px;
+	font-family: "Roboto";
+}
+#btnCalcular{
+	background-color: #004B8D;
+	font-family: "Roboto";
+	border:none;
+	width: 263px;
+	padding:11px 40px;
+	font-size: 15px;
+	margin-top: 10px;
+	color:white;
+	box-shadow: 2px 2px 3px #00305A;
+	border-radius: 0.3em;
+}
+footer{
+	width:1250px;
+	height:150px;
+	clear:both;
+}
+footer p{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+footer p a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+footer p a:hover{
+	color:#0B3861;
+}
+.social ul{
+	list-style: none;
+	text-align: center;
+	position: absolute;
+	margin-left: 450px;
+}
+ .social ul li a {
+	color:#fff;
+	background: #000;
+	padding: 2px 9px;
+}
+ 
+.social ul li .icon-facebook{
+	background: #3b5998;
+} 
+.social ul li .icon-twitter{
+	background: #00abf0;
+}
+.social ul li .icon-pinterest{
+	background: #ae181f;
+}
+.social ul li .icon-mail{
+	background: #666666;
+}
+ .social ul li a:hover{
+	background: #000;
+	transition: 0.6s;
+}
+.social ul li{
+	font-size:45px;
+	display: inline;
+}

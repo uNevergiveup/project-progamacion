@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Tarifa</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.11/css/all.css" integrity="sha384-p2jx59pefphTFIpeqCcISO9MdVfIm4pNnsL08A6v5vaQc4owkQqxMV8kg4Yvhaw/" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+</head>
+<body>
+	<main>
+		<header><img src="logo.png">
+			
+			<ul>
+				<li><a href="index.html">Inicio&nbsp;</a>|</li>
+				<li><a href="index3.html">Sobre nosotros&nbsp;</a>|</li>
+				<li><a href="index4.html">Nuestro equipo&nbsp;</a>|</li>
+				<li><a href="#">Servicios&nbsp;</a>|</li>
+				<li><a href="index2.html">Tarifas</a></li>
+			</ul>
+			
+			<div class="iconheader">
+			<span class="user"><a href="https://www.holaelefant.com/contact">Iniciar Sesión&nbsp;&nbsp;<i class="fas fa-user-alt fa-1x"></i></a></span>|
+			<span class="phone">000-000&nbsp;&nbsp;<i class="fas fa-phone fa-1x"></i></span>
+			</div>
+			
+		</header>
+
+<nav>	
+	<div id="tarifa">
+		<form id="datos">
+			<p>Por favor ingresar los siguientes datos para una tarifa aproximada:</p><br>
+
+			Ingrese el dia que desea el servicio:<br>
+			<select id="cmbDia"></select><br><br>
+
+			Ingrese las horas que desea de nuestro servicio:<br>
+			<input type="number" id="txtHoras" min="1" class="dato"><br><br>
+
+			Ingrese la edad del paciente:<br>
+			<input type="number" id="txtEdad" class="dato"><br><br>
+
+			Ingrese si se necesita silla de ruedas:<br>
+			<select id="cmbSilla"></select><br><br><br>
+
+			<button type="button" id="btnCalcular" onclick="calcularTarifa()">Calcular tarifa</button><br><br>
+
+			<label id="lblTarifa"></label>
+		
+			<script src="abuelofeliz.js"></script>
+
+		</form>
+	</div>
+		<img src="banner1.jpg" width="465" height="320" style="margin-top: 130px">
+		<p>Recuerde que la tarifa es aproximada, el costo puede variar dependiendo de la salud del paciente.<br>Si desea un costo exacto comuniquese con nosotros al 000-000 y separe una cita.</p>
+</nav>
+
+	
+
+	<footer>
+			<p><a href="#">Quienes somos &nbsp;&nbsp;</a><a href="#">Trabaja con nosotros &nbsp;&nbsp;</a><a href="#"> Preguntas frecuentes &nbsp;&nbsp;</a> <a href="#"><a href="#">Blog 
+			&nbsp;&nbsp; </a><a href="#">Ayuda</a></p>
+			<hr>
+
+				<div class="social">
+
+					<ul>
+						<li><a href="http://www.facebook.com" target="_blank" class="icon-facebook">
+							<i class="fab fa-facebook-square" ></i></a></li>
+						<li><a href="http://www.twitter.com" target="_blank" class="icon-twitter">
+							<i class="fab fa-twitter-square" ></i></a></li>
+						<li><a href="http://www.pinterest.com" target="_blank" class="icon-pinterest">
+							<i class="fab fa-pinterest-square"></i></a></li>
+						<li><a href="http://www.gmail.com" target="_blank" class="icon-mail">
+							<i class="fas fa-envelope-square"></i></a></li>
+						</ul>
+
+					</div>
+					<div id="box">
+				<div id="buscador">
+				<form action="#" method="post">
+					<span class="icon"><i class="fa fa-search"></i></span>
+					<input placeholder="Buscar..." type="buscar" id="buscar"/>
+					
+				</form>
+				</div>
+			</div>
+						
+	</footer>
+</main>
+
+</body>
+</html>

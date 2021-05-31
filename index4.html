@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Staff</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.11/css/all.css" integrity="sha384-p2jx59pefphTFIpeqCcISO9MdVfIm4pNnsL08A6v5vaQc4owkQqxMV8kg4Yvhaw/" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+</head>
+<body>
+	<main>
+		<header><a href="index.html"><img src="logo.png"></a>
+			
+			<ul>
+				<li><a href="index.html">Inicio&nbsp;</a>|</li>
+				<li><a href="index3.html">Sobre nosotros&nbsp;</a>|</li>
+				<li><a href="index4.html">Nuestro equipo&nbsp;</a>|</li>
+				<li><a href="#">Servicios&nbsp;</a>|</li>
+				<li><a href="index2.html">Tarifas</a></li>
+			</ul>
+
+			<div class="iconheader">
+			<span class="user"><a href="https://www.holaelefant.com/contact">Iniciar Sesión&nbsp;&nbsp;<i class="fas fa-user-alt fa-1x"></i></a></span>|
+			<span class="phone">000-000&nbsp;&nbsp;<i class="fas fa-phone fa-1x" id="iconphone"></i></span>
+			</div>
+
+		</header>
+
+		<div id="staff">
+
+			<h2>Nuestro staff</h2>
+			<p>Profesionales encargados para velar por la salud de cada paciente las 24 Hrs. del día</p>
+
+			<div class="buscador">
+				<h3>Encuentra a tu cuidador</h3><br>
+			<input type="text" id="txtCuidadores" placeholder="Ingresa un nombre y/o apellido">
+
+			<select id="cmbCuidador"></select>
+
+			<button type="button" id="btnBuscar" onclick="buscarStaff()">Buscar</button><br><br>
+
+			<script src="services/listacuidadores.js"></script>
+			</div>
+
+		</div>
+
+			<label id="lblResultado"></label>
+	
+
+<footer>
+			<p><a href="#">Quienes somos &nbsp;&nbsp;</a><a href="#">Trabaja con nosotros &nbsp;&nbsp;</a><a href="#"> Preguntas frecuentes &nbsp;&nbsp;</a> <a href="#"><a href="#">Blog 
+			&nbsp;&nbsp; </a><a href="#">Ayuda</a></p>
+			<hr>
+
+				<div class="social">
+
+					<ul>
+						<li><a href="http://www.facebook.com" target="_blank" class="icon-facebook">
+							<i class="fab fa-facebook-square" ></i></a></li>
+						<li><a href="http://www.twitter.com" target="_blank" class="icon-twitter">
+							<i class="fab fa-twitter-square" ></i></a></li>
+						<li><a href="http://www.pinterest.com" target="_blank" class="icon-pinterest">
+							<i class="fab fa-pinterest-square"></i></a></li>
+						<li><a href="http://www.gmail.com" target="_blank" class="icon-mail">
+							<i class="fas fa-envelope-square"></i></a></li>
+						</ul>
+
+					</div>
+					<div id="box">
+				<div id="buscador">
+				<form action="#" method="post">
+					<span class="icon"><i class="fa fa-search"></i></span>
+					<input placeholder="Buscar..." type="buscar" id="buscar"/>
+					
+				</form>
+				</div>
+			</div>
+						
+	</footer>
+</main>
+
+</body>
